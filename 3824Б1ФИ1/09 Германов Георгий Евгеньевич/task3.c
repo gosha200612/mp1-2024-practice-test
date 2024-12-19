@@ -4,7 +4,6 @@
 //   то включить в ss N последних символов строки s.
 // Если длина строки s меньше N,
 //   то включить в ss все символы строки s, добавив перед ними символы '*'.
-#include <stdio.h>
 #include <stdlib.h>
 char* task3(char *s, unsigned N) {
     unsigned len = strlen(s);
